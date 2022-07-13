@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body, a {
+  font-family: 'Montserrat', sans-serif;
+  color: #2E434E;
+}
+p, a{
+  font-family: 'Inter', sans-serif;
+}
+/* ==========================================================================
+navbar 
+=============================================================================== */
+.navbar-expand-lg .navbar-nav .nav-link{
+  padding:1rem 0.8rem;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color:#2E434E;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+  color:#FDB813;
+  font-weight: 700;
+}
+.navbar-nav .nav-link.active:hover{
+  color:#fff;
+}
+.img-logo{
+  width: 8rem;
+}
+
+.subnav-content a {
+  /* font-size: 14px; */
+  /* text-align: center; */
+  padding:0.5rem 0.8rem;
+  text-decoration: none;
+}
+
+.subnav {
+  /* float: left; */
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 12px;  
+  border: none;
+  outline: none;
+  padding:1rem 0.8rem;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  text-transform: uppercase;
+font-weight: 600;
+color: #2E434E;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color:#FDB813;
+  color: #fff;
+  border-top-left-radius: 5px!important;
+  border-top-right-radius: 5px;
+  
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color:#FDB813;
+  width: 100%;
+  z-index: 1;
+  padding: 20px 15px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.subnav-content a {
+  /* float: left; */
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #fff;
+  color: #FDB813;
+  border-radius: 5px;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+  text-align: center;
+}
+.dropdown-menu.sub-dropdown{
+  left: 50%!important;
+  top: 80%!important;
+}
+.dropdown-menu a {
+  color: #2E434E!important;
+  font-size: 14px!important;
+  text-transform: capitalize!important;
+}
+
+/* end of navbar  */
+
+/* home page  */
+.hero-img{
+  max-height: 50rem;
+}
+.hero-box{
+  background-color: rgba(28, 40, 47, 0.4);
+  max-width: 30rem;
+  margin: auto;
+  padding: 2.5rem;
+  backdrop-filter: saturate(100%) blur(7px);
+  border-radius: 5px;
+}
+
+
+
+
+/* reusable components  */
+.btn.btn-primary{
+  background: #FDB813;
+  font-weight: 500;
+  border: 0;
+}
+.btn.btn-primary:hover{
+  background-color: rgb(247, 213, 45);
+}
+.bg-light-gray{
+  background-color: #F0F2F2;
+}
+.tx-neutral{
+  color: #6D7B83;
+}
+.card-pad{
+  padding: 2.5rem;
+}
+/* .card-pad-footer */
+.list-none{
+  list-style-type:none;
+}
+.text-primary{
+  color: #FDB813!important;
+}
+a{
+  text-decoration: none;
+}
+.tx-14{
+  font-size: 0.875rem;
+}
+
+
+#myVideo {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+    object-fit: cover;
+}
+
+.video-div {
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+  bottom: 20px;
+}
+
+.feature{
+  background-image: url('../img/happy-providus.jpg');
+}
+.feature2{
+  background-image: url('../img/providus-customer.jpg');
+}
+.feature3{
+  background-image: url('../img/providus-card.jpg');
+}
+
+.my-card-height{
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 450px;
+  background-position: center;
+  width: 100%;
+  transition: background .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-box-shadow .3s;
+}
+/* 
+.my-card-height:hover{
+  transition-duration:1000ms;
+  transform: scale(1.2)
+} */
