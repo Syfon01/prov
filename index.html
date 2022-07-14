@@ -14,51 +14,25 @@
   <body>
     <main>
       <header>
-        <nav class="navbar navbar-expand-lg bg-white shadow-sm fixed-top">
-          <div class="container-fluid py-2">
-            <a class="navbar-brand bg-transparent" href="#">
-              <img src="./img/main-logo.svg" class="img-fluid d-block img-logo" alt="" srcset="">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+
+        <!-- laptop navbar  -->
+      <div class="d-none d-md-none d-lg-none d-xl-block">
+        <nav class="navbar d-block navbar-expand-lg bg-white shadow-sm fixed-top py-0">
+          <div class="container-fluid border-bottom">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <ul class="navbar-nav laptop-nav mx-auto mb-lg-0">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <div class="subnav">
-                    <button class="subnavbtn">About us <i class="fa fa-caret-down"></i></button>
-                    <div class="subnav-content">
-                      <a href="">Our Team</a>
-                      <a href="">financial report</a>
-                      <a class=" dropdown-toggle" href="#" id="aboutDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Legal
-                      </a>
-                      <ul class="dropdown-menu sub-dropdown" aria-labelledby="aboutDrop">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
-                    </div>
-                  </div>
+                  <a class="nav-link"  href="./about.html">About</a>
                 </li>
                 <li class="nav-item">
-                  <div class="subnav">
-                    <button class="subnavbtn">Private <i class="fa fa-caret-down"></i></button>
-                    <div class="subnav-content">
-                      <a href="#bring">Bring</a>
-                      <a href="#deliver">Deliver</a>
-                      <a href="#package">Package</a>
-                      <a href="#express">Express</a>
-                    </div>
-                  </div>
+                  <a class="nav-link" href="./private.html">private</a>
                 </li>
                 
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#">personal</a>
+                  <a class="nav-link" href="#">personal</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">corporate</a>
@@ -77,6 +51,55 @@
                   <a class="nav-link">Help & Support</a>
                 </li>
               </ul>
+            </div>
+            <hr>
+          </div>
+          <div class="container-fluid">
+            <a class="navbar-brand bg-transparent" href="#">
+              <img src="./img/main-logo.svg" class="img-fluid d-block img-logo" alt="" srcset="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse second-nav" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./index.html">Our Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Financial Report</a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                  <a class=" dropdown-toggle nav-link" href="#" id="aboutDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Legal
+                  </a>
+                  <ul class="dropdown-menu sub-dropdown shadow-sm" aria-labelledby="aboutDrop">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">careers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">News</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class=" dropdown-toggle nav-link" href="#" id="aboutDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Help & Support
+                  </a>
+                  <ul class="dropdown-menu sub-dropdown" aria-labelledby="aboutDrop">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+               
+              </ul>
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <form class="d-flex" role="search">
                   <button class="btn" type="submit">
@@ -84,7 +107,7 @@
                   </button>
                 </form>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle btn btn-primary" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle bg-primary online-pad" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Online Banking
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -98,8 +121,11 @@
               </ul>
               
             </div>
+            
           </div>
         </nav>
+      </div>
+        
       </header>
       <section class="hero">
         <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -159,7 +185,7 @@
               <div class="card border-0 shadow-sm h-100">
                 <div class="card-body card-pad pb-4">
                   <h1 class="fw-bold mb-4">Private Banking</h1>
-                  <p class="tx-neutral mb-0">
+                  <p class="tx-neutral tx-14 mb-0">
                     Product offerings designed to take the hassle away from managing your money.					
                   </p>
                 </div>
@@ -172,7 +198,7 @@
               <div class="card border-0 shadow-sm h-100">
                 <div class="card-body card-pad pb-4">
                   <h1 class="fw-bold mb-4">Personal Banking</h1>
-                  <p class="tx-neutral mb-0">
+                  <p class="tx-neutral tx-14 mb-0">
                     Download our mobile app and experience simpler, more reliable and convenient banking.										
                   </p>
                 </div>
@@ -186,62 +212,62 @@
                 <div class="card-body card-pad pb-4">
                   <h4 class="fw-bold mb-3">Quick links</h4>
                   <ul class="list-none ps-2 tx-14">
-                    <li class="my-2">
-                      <a href="http://" class="tx-neutral">
+                    <li class="my-1">
+                      <a href="http://" class="tx-neutral tx-14">
                         <i class="fa fa-angle-right text-primary pe-2"></i>
                         Savings Account
                       </a>
                     </li>
-                    <li class="my-2">
-                      <a href="http://" class="tx-neutral">
+                    <li class="my-1">
+                      <a href="http://" class="tx-neutral tx-14">
                         <i class="fa fa-angle-right text-primary pe-2"></i>
                         Current Account
                       </a>
                     </li>
-                    <li class="my-2">
-                      <a href="http://" class="tx-neutral">
+                    <li class="my-1">
+                      <a href="http://" class="tx-neutral tx-14">
                         <i class="fa fa-angle-right text-primary pe-2"></i>
                         Domicilliary Savings Account
                       </a>
                     </li>
-                    <li class="my-2">
-                      <a href="http://" class="tx-neutral">
+                    <li class="my-1">
+                      <a href="http://" class="tx-neutral tx-14">
                         <i class="fa fa-angle-right text-primary pe-2"></i>
                         Domicilliary Current Account
                       </a>
                     </li>
-                    <li class="my-2">
-                      <a href="http://" class="tx-neutral">
+                    <li class="my-1">
+                      <a href="http://" class="tx-neutral tx-14">
                         <i class="fa fa-angle-right text-primary pe-2"></i>
                         Debit /Credit Cards
                       </a>
                     </li>
-                    <li class="my-2">
-                      <a href="http://" class="tx-neutral">
+                    <li class="my-1">
+                      <a href="http://" class="tx-neutral tx-14">
                         <i class="fa fa-angle-right text-primary pe-2"></i>
                         Find a branch
                       </a>
                     </li>
-                    <li class="my-2">
-                      <a href="http://" class="tx-neutral">
+                    <li class="my-1">
+                      <a href="http://" class="tx-neutral tx-14">
                         <i class="fa fa-angle-right text-primary pe-2"></i>
                         Help & Support
                       </a>
                     </li>
-                    <li class="my-2">
-                      <a href="http://" class="tx-neutral">
+                    <li class="my-1">
+                      <a href="http://" class="tx-neutral tx-14">
                         <i class="fa fa-angle-right text-primary pe-2"></i>
                         Business Concierge
                       </a>
                     </li>
-                    <li class="my-2">
-                      <a href="http://" class="tx-neutral">
+                    <li class="my-1">
+                      <a href="http://" class="tx-neutral tx-14">
                         <i class="fa fa-angle-right text-primary pe-2"></i>
                         About Providus
                       </a>
                     </li>
-                    <li class="my-2">
-                      <a href="http://" class="tx-neutral">
+                    <li class="my-1">
+                      <a href="http://" class="tx-neutral tx-14">
                         <i class="fa fa-angle-right text-primary pe-2"></i>
                         Private Banking
                       </a>
@@ -321,7 +347,140 @@
       <!-- footer  -->
       <section class="footer bg-white">
         <div class="container py-5">
-          <h2>Footer here</h2>
+          <div class="row pb-4 bor-b">
+            <div class="col-md-6 col-12 text-center text-md-start">
+              <div class="">
+                <img src="./img/Shape.svg" alt=""  class="img-fluid" srcset="">
+              </div>
+              <div>
+                <div class="d-flex gap-3 mt-5 justify-content-center justify-content-md-start">
+                  <div class="bg-gray-100 icon-pad text-center">
+                    <a href="http://">
+                      <i class="fa fa-facebook-square" style="font-size:18px" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                  <div class="bg-gray-100 icon-pad text-center">
+                    <a href="http://">
+                      <i class="fa fa-twitter" style="font-size:18px" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                  <div class="bg-gray-100 icon-pad text-center">
+                    <a href="http://">
+                      <i class="fa fa-instagram" style="font-size:18px" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                  <div class="bg-gray-100 icon-pad text-center">
+                    <a href="http://">
+                      <i class="fa fa-youtube-play" style="font-size:18px" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-12 text-center text-md-left">
+              <div class="row">
+                <div class="col-md-6 col-6 text-md-end mt-5 mt-md-0 text-center">
+                  <p class="fw-semibold mb-3 text-uppercase tx-11 text-monte">Overview</p>
+                  <ul class="list-none ps-2 tx-14">
+                    <li class="my-1 list-text">
+                      <a href="http://" class="tx-neutral tx-14">
+                        Personal Banking
+                      </a>
+                    </li>
+                    <li class="my-1 list-text">
+                      <a href="http://" class="tx-neutral tx-14">
+                        Private Banking
+                      </a>
+                    </li>
+                    <li class="my-1 list-text">
+                      <a href="http://" class="tx-neutral tx-14">
+                        Corporate Banking
+                      </a>
+                    </li>
+                    <li class="my-1 list-text">
+                      <a href="http://" class="tx-neutral tx-14">
+                        Commercial Banking
+                      </a>
+                    </li>
+                    <li class="my-1 list-text">
+                      <a href="http://" class="tx-neutral tx-14">
+                        Institutional Banking
+                      </a>
+                    </li>
+                   
+                  </ul>
+                </div>
+
+                <div class="col-md-6 col-6 text-md-end mt-5 mt-md-0 text-center">
+                  <p class="fw-semibold mb-3 text-uppercase tx-11 text-monte">Quick links</p>
+                  <ul class="list-none ps-2 tx-14">
+                    <li class="my-1 list-text">
+                      <a href="http://" class="tx-neutral tx-14">
+                        About Us
+                      </a>
+                    </li>
+                    <li class="my-1 list-text">
+                      <a href="http://" class="tx-neutral tx-14">
+                        Contact Us
+                      </a>
+                    </li>
+                    <li class="my-1 list-text">
+                      <a href="http://" class="tx-neutral tx-14">
+                        Whistleblowing
+                      </a>
+                    </li>
+                    <li class="my-1 list-text">
+                      <a href="http://" class="tx-neutral tx-14">
+                        Business Concierge
+                      </a>
+                    </li>
+                    <li class="my-1 list-text">
+                      <a href="http://" class="tx-neutral tx-14">
+                        Feedback & Complaints
+                      </a>
+                    </li>
+                   
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row pt-4 justify-content-between">
+            <div class="col-md-7 order-2 order-md-1">
+              <div class="d-flex gap-5 justify-content-center justify-content-md-start">
+                <p class="tx-neutral tx-11">
+                  © 2022. ProvidusBank
+                </p>
+                <p class="tx-neutral tx-11">
+                  Sitemap
+                </p>
+              </div>
+            </div>
+            <div class="col-md-5 col-12 order-1 order-md-2">
+              <div class="row justify-content-between text-md-end">
+                <div class="col-md-3 col-3 my-3 my-md-0">
+                  <a href="http://" class="tx-neutral tx-11">
+                    Terms of Use
+                  </a>
+                </div>
+                <div class="col-md-3 col-3 my-3 my-md-0">
+                  <a href="http://" class="tx-neutral tx-11">
+                    Privacy Policy
+                  </a>
+                </div>
+                <div class="col-md-3 col-3 my-3 my-md-0">
+                  <a href="http://" class="tx-neutral tx-11">
+                    Cookie Policy
+                  </a>
+                </div>
+                <div class="col-md-3 col-3 my-3 my-md-0">
+                  <a href="http://" class="tx-neutral tx-11">
+                    Back to Top
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
