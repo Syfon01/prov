@@ -307,7 +307,7 @@ a:hover{
 
 @media (max-width: 575.98px) { 
   .hero-img{
-    height: 65vh;
+    height: 70vh;
     object-fit: cover;
     width: 100%;
   }
