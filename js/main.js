@@ -12,10 +12,12 @@ function myFunction() {
 }
 
 
-function toggleBtn() {
-  document.getElementById("myNav").style.width = "100%";
+function toggleBtn(x) {
+  x.classList.toggle("change");
+  const mobileNav = document.getElementById("myNav");
+  mobileNav.classList.toggle('fullWidth');
+ 
 }
 
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
-}
+
+  
