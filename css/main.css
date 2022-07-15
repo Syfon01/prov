@@ -73,7 +73,12 @@ navbar
   padding: 2.5rem;
   backdrop-filter: saturate(100%) blur(7px);
 }
-.carousel-new-caption{}
+.carousel-caption{
+  bottom: 0;
+  padding-bottom: 0;
+
+}
+
 
 
 
