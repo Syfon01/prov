@@ -62,7 +62,9 @@ navbar
 
 /* home page  */
 .hero-img{
-  max-height: 50rem;
+  max-height:100vh;
+  object-fit: cover;
+    width: 100%;
 }
 .hero-box{
   background-color: rgba(28, 40, 47, 0.4);
