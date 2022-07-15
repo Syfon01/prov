@@ -114,6 +114,9 @@ a{
 .bg-gray-100{
   background-color: #F0F2F2;
 }
+.bg-gray-200{
+background-color:#f7f7f7;
+}
 .tx-11{
   font-size: 11px;
 }
