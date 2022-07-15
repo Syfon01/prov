@@ -193,7 +193,9 @@ a:hover{
   font-weight: 600!important;
   padding: 14px;
 }
-
+.card{
+  border-radius: 0!important;
+}
 
 
 
