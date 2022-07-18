@@ -62,7 +62,7 @@ navbar
 
 /* home page  */
 .hero-img{
-  max-height:100vh;
+  max-height:105vh;
   object-fit: cover;
     width: 100%;
 }
@@ -311,7 +311,23 @@ a:hover{
   padding: 1.2rem 1rem;
   border: 0;
 }
-
+.marquee-news a {
+  margin-right: 50px;
+  color: #6D7B83;
+  font-size: 14px;
+}
+.card-link:hover{
+  color:#2E434E!important;
+}
+.providus-luxe{
+  height: 360px;
+    object-fit: cover;
+    width: 100%;
+}
+.circle-icon{
+  height: 40px;
+  width: 40px;
+}
 @media (max-width: 575.98px) { 
   .hero-img{
     height: 90vh;
@@ -333,4 +349,12 @@ a:hover{
   .carousel-indicators{
     margin-bottom: 0;
   }
+  .main-text-marquee{
+    font-size: 12px;
+  }
+  .providus-luxe{
+    height: 100%;
+      object-fit: contain;
+      width: 100%;
+  }  
  }
