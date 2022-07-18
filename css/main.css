@@ -212,9 +212,37 @@ a:hover{
 .card{
   border-radius: 0!important;
 }
-
-
-
+.bor-bottom{
+  border-bottom: 1px solid #FDB813;
+}
+.about-profile-img{
+  height: 36rem;
+    object-fit: auto;
+    width: 100%;
+}
+.show-img{
+  height: 25rem;
+    object-fit: cover;
+    width: 100%;
+}
+.next-mag{
+  margin-top: -10px;
+}
+.hero-box.about-hero{
+  max-width: 38rem!important;
+}
+.tx-12{
+  font-size: 12px;
+}
+.img-cover{
+  object-fit: contain;
+  height: 100%;
+}
+.bg-next-side{
+  background-image: url('/img/providus-cust.jpg');
+  background-size: cover;
+  height: 17rem;
+}
 /*==================================================
  mobile 
  =================================================*/
