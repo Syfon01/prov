@@ -118,6 +118,9 @@ a{
 .tx-14{
   font-size: 0.875rem;
 }
+.tx-18{
+  font-size: 18px;
+}
 .bg-gray-100{
   background-color: #F0F2F2;
 }
@@ -202,6 +205,16 @@ background-color:#f7f7f7;
 .pri-section4{
   background-image: url('../img/conie.jpeg');
 }
+.personal1{
+  background-image: url('../img/providusbank-personal.jpeg');
+}
+.personal2{
+  background-image: url('../img/providusbank-mobilebanking-1.jpeg');
+}
+.personal3{
+  background-image: url('../img/luxe-1.png');
+}
+
 /* 
 .my-card-height:hover{
   transition-duration:1000ms;
