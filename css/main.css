@@ -165,6 +165,43 @@ background-color:#f7f7f7;
   background-position: center;
   width: 100%;
 }
+.my-card-private{
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 250px;
+  background-position: center;
+  width: 100%;
+}
+.private1{
+  background-image: url('../img/private2.png');
+}
+.private2{
+  background-image: url('../img/private1.jpeg');
+}
+.private3{
+  background-image: url('../img/private3.jpeg');
+}
+.private4{
+  background-image: url('../img/private4.png');
+}
+.private5{
+  background-image: url('../img/mini_mini_A4.png');
+}
+.pri-section1{
+  background-image: url('../img/prisec-1.jpeg');
+}
+
+.pri-section2{
+  background-image: url('../img/family.jpeg');
+}
+
+.pri-section3{
+  background-image: url('../img/Global-access.jpeg');
+}
+
+.pri-section4{
+  background-image: url('../img/conie.jpeg');
+}
 /* 
 .my-card-height:hover{
   transition-duration:1000ms;
@@ -233,6 +270,9 @@ a:hover{
 }
 .tx-12{
   font-size: 12px;
+}
+.tx-16{
+  font-size: 16px;
 }
 .img-cover{
   object-fit: contain;
