@@ -205,6 +205,21 @@ background-color:#f7f7f7;
 .pri-section4{
   background-image: url('../img/conie.jpeg');
 }
+.cor-section1{
+  background-image: url('../img/treasury.jpeg');
+}
+
+.cor-section2{
+  background-image: url('../img/providusbank-stock-101.jpeg');
+}
+
+.cor-section3{
+  background-image: url('../img/providusbank-stock-74.jpeg');
+}
+
+.cor-section4{
+  background-image: url('../img//financing.jpeg');
+}
 .personal1{
   background-image: url('../img/providusbank-personal.jpeg');
 }
@@ -294,7 +309,23 @@ a:hover{
 .bg-next-side{
   background-image: url('/img/providus-cust.jpg');
   background-size: cover;
-  height: 17rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 19rem;
+}
+.bg-next-side-corp{
+  background-image: url('/img/business.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 23rem;
+}
+.bg-next-side-corp2{
+  background-image: url('/img/Relationship-Banking-1-scaled.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 23rem;
 }
 /*==================================================
  mobile 
