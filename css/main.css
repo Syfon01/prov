@@ -229,6 +229,22 @@ background-color:#f7f7f7;
 .personal3{
   background-image: url('../img/luxe-1.png');
 }
+.digital1{
+  background-image: url('../img/mobile-bank.jpeg');
+}
+.digital2{
+  background-image: url('../img/providusbank-mobilebanking-1.jpeg');
+}
+.digital3{
+  background-image: url('../img/card.png');
+}
+.digital4{
+  background-image: url('../img/providusbank-mobilebanking-2.jpeg');
+}
+.digital5{
+  background-image: url('../img/providusbank-stock-103.jpeg');
+}
+
 
 /* 
 .my-card-height:hover{
