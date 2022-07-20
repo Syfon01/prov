@@ -301,6 +301,11 @@ a:hover{
     object-fit: auto;
     width: 100%;
 }
+.def-info-img{
+  height: 20rem;
+  object-fit: auto;
+  width: 100%;
+}
 .show-img{
   height: 25rem;
     object-fit: cover;
@@ -314,6 +319,9 @@ a:hover{
 }
 .tx-12{
   font-size: 12px;
+}
+.tx-13{
+  font-size: 13px;
 }
 .tx-16{
   font-size: 16px;
@@ -343,6 +351,21 @@ a:hover{
   background-position: center;
   height: 23rem;
 }
+.bg-next-def{
+  background-image: url('/img/providusbank-stock-70.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 18rem;
+}
+.bg-side-def{
+  background-image: url('/img/providusbank-stock-63.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 23rem;
+}
+
 /*==================================================
  mobile 
  =================================================*/
@@ -456,6 +479,26 @@ a:hover{
   height: 40px;
   width: 40px;
 }
+.top-pad{
+  padding-top: 5rem;
+}
+.accordion-button::after{
+  background-image: none;
+}
+.accordion-button:not(.collapsed){
+  background-color: #FDB813;
+  color: #2E434E;
+  font-weight: 700!important;
+}
+.accordion-button:not(.collapsed)::after{
+  background-image: none;
+}
+.accordion-item{
+  border: none;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
 @media (max-width: 575.98px) { 
   .hero-img{
     height: 90vh;
@@ -485,4 +528,7 @@ a:hover{
       object-fit: contain;
       width: 100%;
   }  
+  .top-pad{
+    padding-top: 0rem;
+  }
  }
