@@ -167,6 +167,20 @@ background-color:#f7f7f7;
   min-height: 450px;
   background-position: center;
   width: 100%;
+  z-index: 1;
+  max-width: 100%;
+}
+.zoom-img{
+  transition: all 1s ease;
+}
+.zoom-img:hover{
+  transform:scale(1.2);
+}
+.my-zoom{
+  overflow: hidden;
+}
+.card-index{
+  z-index: 999;
 }
 .my-card-private{
   background-size: cover;
@@ -521,6 +535,12 @@ a:hover{
 }
 .accordion-button:focus {
   box-shadow: none;
+}
+.card:hover{
+  box-shadow: 6px 3px 20px rgba(128, 128, 128, 0.254)!important;
+}
+.white-card:hover{
+  box-shadow: 3px 6px 20px rgba(128, 128, 128, 0.254)!important;
 }
 @media (max-width: 575.98px) { 
   .hero-img{

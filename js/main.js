@@ -1,3 +1,4 @@
+
 let video = document.getElementById("myVideo");
 let btn = document.getElementById("myBtn");
 
