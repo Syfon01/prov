@@ -164,7 +164,7 @@ background-color:#f7f7f7;
 .my-card-height{
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 450px;
+  min-height: 400px;
   background-position: center;
   width: 100%;
   z-index: 1;
@@ -266,6 +266,24 @@ background-color:#f7f7f7;
 }
 .ins-section3{
   background-image: url('../img/providusbank-stock-80.jpeg');
+}
+.help1{
+  background-image: url('../img/providusbank-stock-42.jpeg');
+}
+.help2{
+  background-image: url('../img/providusbank-stock-58.jpeg');
+}
+.help3{
+  background-image: url('../img/providusbank-hnilounge-9.jpeg');
+}
+.help4{
+  background-image: url('../img/providusbank-stock-99.jpeg');
+}
+.help5{
+  background-image: url('../img/providusbank-stock-question.jpeg');
+}
+.tx-large{
+  font-size: 3.2rem;
 }
 
 /* 
@@ -402,7 +420,13 @@ a:hover{
   height: 25rem;
 }
 
-
+.bg-next-side-help{
+  background-image: url('/img/providusbank-stock-85.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 25rem;
+}
 /*==================================================
  mobile 
  =================================================*/
@@ -542,6 +566,10 @@ a:hover{
 .white-card:hover{
   box-shadow: 3px 6px 20px rgba(128, 128, 128, 0.254)!important;
 }
+.btn.bg-light:hover{
+  background-color: #000!important;
+  color: #fff;
+}
 @media (max-width: 575.98px) { 
   .hero-img{
     height: 90vh;
@@ -573,5 +601,8 @@ a:hover{
   }  
   .top-pad{
     padding-top: 0rem;
+  }
+  .tx-large{
+    font-size: 2.5rem;
   }
  }
