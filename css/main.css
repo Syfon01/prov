@@ -282,6 +282,13 @@ background-color:#f7f7f7;
 .help5{
   background-image: url('../img/providusbank-stock-question.jpeg');
 }
+.hni1{
+  background-image: url('../img/smile-lady.jpeg');
+}
+.hni2{
+  background-image: url('../img/Providus-Luxe_.jpeg');
+}
+
 .tx-large{
   font-size: 3.2rem;
 }
@@ -377,6 +384,13 @@ a:hover{
   background-position: center;
   height: 19rem;
 }
+.bg-next-side2{
+  background-image: url('/img/providus-guy.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 19rem;
+}
 .bg-next-side-corp{
   background-image: url('/img/business.jpeg');
   background-size: cover;
@@ -403,7 +417,7 @@ a:hover{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 23rem;
+  height: 25rem;
 }
 .bg-next-side-institution{
   background-image: url('/img/providusbank-stock-79.jpeg');
@@ -422,6 +436,13 @@ a:hover{
 
 .bg-next-side-help{
   background-image: url('/img/providusbank-stock-85.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 25rem;
+}
+.bg-side-hni{
+  background-image: url('/img/hni.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
