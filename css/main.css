@@ -204,6 +204,29 @@ background-color:#f7f7f7;
 .private5{
   background-image: url('../img/mini_mini_A4.png');
 }
+.dia1{
+  background-image: url('../img/Mortgage.png');
+}
+.dia2{
+  background-image: url('../img/Health-care.png');
+}
+.dia3{
+  background-image: url('../img/wealth.png');
+}
+.dia4{
+  background-image: url('../img/Lifestyle.png');
+}
+.other1{
+  background-image: url('../img/Cards.png');
+}
+.other2{
+  background-image: url('../img/providusbank-stock-101.jpeg');
+}
+.other3{
+  background-image: url('../img/mini_Wealth-Management.jpeg');
+}
+
+
 .pri-section1{
   background-image: url('../img/prisec-1.jpeg');
 }
@@ -631,5 +654,20 @@ a:hover{
   }
   .tx-large{
     font-size: 2.5rem;
+  }
+  .bg-black-50{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.597));
+    font-weight: 600;
+    padding: 1rem;
+  }
+  .bg-luxe{
+    background-image: url('/img/Providus_luxe_image.png');
+    background-size: cover;
+    position: center;
+    background-repeat: no-repeat;
+    
+  }
+  .luxe-p{
+    font-weight: 500!important;
   }
  }
