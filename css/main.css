@@ -414,6 +414,13 @@ a:hover{
   background-position: center;
   height: 19rem;
 }
+.bg-next-contact2{
+  background-image: url('/img/providusbank-stock-question.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 19rem;
+}
 .bg-next-side-corp{
   background-image: url('/img/business.jpeg');
   background-size: cover;
@@ -466,6 +473,13 @@ a:hover{
 }
 .bg-side-hni{
   background-image: url('/img/hni.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 25rem;
+}
+.bg-side-contact{
+  background-image: url('/img/providus-cust.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
