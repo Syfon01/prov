@@ -670,4 +670,7 @@ a:hover{
   .luxe-p{
     font-weight: 500!important;
   }
+  .img-fluid.w-25{
+    width: 50%!important;
+  }
  }
